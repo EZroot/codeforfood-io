@@ -5,16 +5,32 @@ const blog = () => {
     <div class="pagewrapper">
     <h1><colorwhite>// PERSONAL LOG</colorwhite></h1>
       <p>
-      <h3><colorpurple>FEELING SLOW TODAY</colorpurple><colorwhite> OCT 30th,2021</colorwhite><hr/></h3>
-      Just realized why, I've been up almost all night working on:
+      <h3><colorpurple>LOTS OF LEARNING AND SOME PROGRESS</colorpurple><colorwhite> NOV 3rd,2021</colorwhite><hr/></h3>
+      I have only really dived in to web development since starting this website.
+      <br/><br/>
+      Currently using ReactJS and its quite addictive!
+      As of right now I have a pretty good understanding of:
       <ul>
-      <li>this</li>
-      <li>client projects</li>
-      <li>C# algorithm tutorials</li>
-      <li>pixel art</li>
-      <li>little bit of twitch stuff</li>
+      <li>POST,GET,USE requests</li>
+      <li>SMTP Email Backend</li>
+      <li>User Authentication</li>
+      <li>SQL Database Authentication</li>
       </ul>
-      It's a good thing I love what I do. ^_^
+      Just the thoughts of a novice; so far it feels like web development is 45% server setup, 45% designing, and 10% coding.
+      <br/><br/>
+      Tools:
+      <ul>
+      <li>Atom IDE</li>
+      <li>React + NodeJs</li>
+      <li>Postman</li>
+      <li>MYSQL Workbench</li>
+      </ul>
+      OS:
+      <ul>
+      <li>Linux -> Kubuntu 20.04</li>
+      </ul>
+      <h3><colorpurple>FEELING SLOW TODAY</colorpurple><colorwhite> OCT 30th,2021</colorwhite><hr/></h3>
+      Prolong nerd activies cause a little bit of brain fog.
       <h3><colorpurple>WEBSITE UPDATE!</colorpurple><colorwhite> OCT 30th,2021</colorwhite><hr/></h3>
       Updated the website, looks hell of a lot better. Still mediocre in many ways. Need to add a SQL database and user functionality.
       <br/><br/>My mom told me all the cool kids are doing it.

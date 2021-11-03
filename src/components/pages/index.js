@@ -11,7 +11,7 @@ const index = () => {
     <h1><colorwhite>// CODEFORFOOD.IO</colorwhite></h1>
     <p>
     <h3><colorwhite>Newfoundland Game Studio</colorwhite><hr/></h3>
-    Living in rural Canada is damn near free, but food isn't. Thus...
+    Living in rural Canada is pretty cheap, but food isn't. Thus...
     <h3><colorwhite>CodeForFood.IO was born</colorwhite></h3>
     Just a small group of passionate gamers devoted to creating highly-polished, entertaining and marketable games.
     <h3><colorwhite>Now What?</colorwhite><hr/></h3>
