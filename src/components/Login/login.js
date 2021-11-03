@@ -14,7 +14,7 @@ export default function LoginPage(req){
   const[password, setPassword] = useState("");
 
   const register=()=>{
-    Axios.post('https://codeforfood.io/register', {
+    Axios.post('https://codeforfood.io/auth/register', {
       username: usernameReg,
       password: passwordReg,
     }).then((response)=>{
@@ -23,7 +23,7 @@ export default function LoginPage(req){
   };
 
   const login=()=>{
-    Axios.post('https://codeforfood.io/login',
+    Axios.post('https://codeforfood.io/auth/login',
     qs.stringify({
             username: username, //gave the values directly for testing
             password: password
