@@ -6,22 +6,29 @@ const index = () => {
 
 
     <div class="pagewrapper">
+    <h1><img src={logo} alt="loading..." /></h1>
     <p>
-    <h1><img src={logo} alt="loading..." />
-    </h1>
-
-    <h3><colorwhite>Newfoundland Game Studio</colorwhite><hr/></h3>
-    Living in rural Canada is pretty cheap, but food isn't. Thus...
+    <h3><colorpurple>CodeForFood Game Studio</colorpurple><hr/></h3>
+    Satisfying our mind hunger as a team one project at a time. Thus...
     <h3><colorwhite>CodeForFood.IO was born</colorwhite></h3>
-    Just a small group of passionate gamers devoted to creating highly-polished, entertaining and marketable games.
-    <h3><colorwhite>Now What?</colorwhite><hr/></h3>
-    Now we are currently in the planning stages of our game development.
+
+    We believe everyone should be able to make their own game, no matter what age or profession.
     <br/>
+    <br/>
+    We're so good we can turn your grandma into a game developer!
+    <br/>
+    <h3><colorpurple>Now What?</colorpurple><hr/></h3>
+    <a href="mailto:developer@codeforfood.io"><colorpurple>Contact us</colorpurple></a> to get help with your project or idea!
+    <br/>
+    <br/>
+    <hr/>
+    Stay up to date and <a href="https://discord.gg/7jwRfsU9Jr" ><colorpurple>Join our Discord</colorpurple></a>
+    <br/>
+    Follow our <a href="https://twitch.tv/codeforf00d" ><colorpurple>Software Development on Twitch</colorpurple></a>
     <br/>
     <br/>
 
     </p>
-    <div class="filledbutton"><heartspan><a href="https://discord.gg/7jwRfsU9Jr" ><colorwhite>Join our Discord</colorwhite></a></heartspan></div>
 </div>
   );
 }

@@ -31,10 +31,7 @@ export default function Services(){
     <h1><colorwhite>// Hire Us</colorwhite></h1>
       <p>
       <h3><colorpurple>## SERVICES OFFERED</colorpurple><colorwhite>  2021</colorwhite><hr/></h3>
-      We're a small group of game developers bringing custom development to the consumer market at a reasonable rate.
-      <br/>
-      <br/>
-      Do you have an idea for a dream video game? Or want to create your very own mobile game to monotize?
+      Need programming help? A game created? Both???
       <br/>
       <br/>
       We can help!
@@ -45,10 +42,9 @@ export default function Services(){
       <li>2D/3D Game Development (Desktop/Mobile)</li>
       <li>Rapid Prototyping of Interactive Mechanics</li>
       <li>2D Pixel Art</li>
-      <li>Cooking</li>
 
       </ul>
-      We give <colorgreen><strong><i><u>special discounts</u></i></strong></colorgreen> to non-professional individuals.
+      We give discounts to non-professional / student individuals.
       <br/ >
       <br/ >
       Enough about us, let's talk about your project!

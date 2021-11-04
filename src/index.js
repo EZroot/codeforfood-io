@@ -16,7 +16,7 @@ const options = {
 };
 
 const AlertTemplate = ({ message }) => (
-  <div className="alert formbutton">{message}</div>
+  <div className="alert alertpopup">{message}</div>
 );
 
 ReactDOM.render(
