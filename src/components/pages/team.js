@@ -1,10 +1,10 @@
 import React from 'react';
-const contact = () => {
+const team = () => {
   return (
     <div class="pagewrapper">
-    <h1><colorwhite>// Contact Us</colorwhite></h1>
+    <h1><colorwhite>// THE PEEPS</colorwhite></h1>
     <p>
-    <colorwhite>REACH US AT</colorwhite><hr/>
+    <colorwhite>CODEFORFOOD.IO TEAM</colorwhite><hr/>
     <a href="mailto:developer@codeforfood.io">developer@codeforfood.io</a> <br/>
     <br/><br/><colorwhite>TWITCH FOLLOWERS</colorwhite><hr/>
     <colorpurple>moonbase420</colorpurple><br/>
@@ -16,4 +16,4 @@ const contact = () => {
     </div>
   );
 }
-export default contact;
+export default team;

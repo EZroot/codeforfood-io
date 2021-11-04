@@ -29,6 +29,17 @@ const blog = () => {
       <ul>
       <li>Linux -> Kubuntu 20.04</li>
       </ul>
+      <h4>Continued<hr/></h4>
+      I have database backend half done, emailing backend basics finished, and alerts added. Also changed around the color pallette
+      <br/>
+      <br/>
+      Too pink??
+      <br/>
+      <br/>
+      Pink is the most expensive color right? Which is why we produce the most expensive products...
+      <br/>
+      <br/>
+      Anyway, fairly productive day.
       <h3><colorpurple>FEELING SLOW TODAY</colorpurple><colorwhite> OCT 30th,2021</colorwhite><hr/></h3>
       Prolong nerd activies cause a little bit of brain fog.
       <h3><colorpurple>WEBSITE UPDATE!</colorpurple><colorwhite> OCT 30th,2021</colorwhite><hr/></h3>

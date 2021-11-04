@@ -1,21 +1,21 @@
 
 body {
   font-family: 'PixelOperatorMono';
-  background-color: #1d1d1d;
-  color: #C4C4C4;
+  background-color: #19171A;
+  color: #F1E9EC;
 }
 
 .gif {
-  width: 65%;
-  min-width: 400px;
+  width: 21vw;
+  min-width: 200px;
 }
 
 h1 {
-  font-size: max(2vw, 36px);
+  font-size: max(2vw, 32px);
 }
 
 h2 {
-  font-size: max(1.8vw, 28px);
+  font-size: max(1.8vw, 24px);
 }
 
 h3 {
@@ -23,16 +23,16 @@ h3 {
 }
 
 h4 {
-  font-size: max(1vw, 16px);
+  font-size: max(1.2vw, 18px);
 }
 
 p {
 
-  font-size: max(1.3vw, 18px);
+  font-size: max(1.1vw, 15px);
 }
 
 a:link {
-  color: #8e7cc3;
+  color: #DAC1DE;
 }
 
 /* mouse over link */
@@ -45,6 +45,72 @@ a:active {
   color: white;
 }
 
+.formwrapper{
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+input {
+  width: max(22vw,300px);
+  font-size: max(1.3vw, 18px);
+  font-family: 'PixelOperatorMono';
+
+}
+textarea {
+  font-size: max(1.3vw, 18px);
+  font-family: 'PixelOperatorMono';
+
+  width: max(22vw,300px);
+  height: 200px;
+  transition: all 0.5s;
+}
+
+.container{
+    padding: 12px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+  transition: 0.3s;
+}
+
+.formbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #785261;
+  border: none;
+  color: #DAC1DE;
+  text-align: center;
+  font-size: max(1.5vw, 28px);
+  padding: 5px;
+  width: max(22vw,300px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.pagewrapperhorizontal
+{
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
+
+
+           display: grid;
+           gap: 25px;
+           align-items:flex-start;
+           grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+           grid-auto-flow: row;  /* or 'row', 'row dense', 'column dense' */
+}
+
 .pagewrapper{
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 1s; /* Firefox < 16 */
@@ -54,16 +120,22 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
 .pagewrapper colorpurple{
-  color: #8e7cc3;
+  color: #AB89B1;
 }
 
 .pagewrapper colorwhite{
-  color: #ffffff;
+  color: #FDE4EE;
 }
 
 .pagewrapper colorgrey{
@@ -71,11 +143,11 @@ a:active {
 }
 
 .pagewrapper colorred{
-  color:#FF0000
+  color:#F8BBD2
 }
 
 .pagewrapper colorgreen{
-  color:#8cde87;
+  color:#C6F393;
 }
 
 .pagewrapper space{
@@ -90,9 +162,9 @@ a:active {
 
 .button {
   border-radius: 4px;
-  background-color: #1d1d1d;
+  background-color: #19171A;
   border: none;
-  color: #8e7cc3;
+  color: #DAC1DE;
   text-align: center;
   font-size: max(1.6vw, 18px);
   padding: 20px;
@@ -130,7 +202,7 @@ a:active {
 .topnav {
   padding: 12px;
   overflow: hidden;
-  background-color: #1d1d1d;
+  background-color: #19171A;
   transition: all 0.5s;
 }
 
@@ -155,10 +227,11 @@ a:active {
 /*
 Button for donations or subscriptions?
 */
+
 .filledbutton {
   display: inline-block;
   border-radius: 4px;
-  background-color: #61538c;
+  background-color: #785261;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -222,7 +295,7 @@ Button for donations or subscriptions?
 .smallfilledbutton {
   display: inline-block;
   border-radius: 4px;
-  background-color: #61538c;
+  background-color: #DAC1DE;
   border: none;
   color: #FFFFFF;
   text-align: center;

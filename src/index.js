@@ -3,10 +3,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
+import { transitions, positions, Provider as AlertProvider } from 'react-alert';
+//import AlertTemplate from 'react-alert-template-oldschool-dark';
+
+// optional configuration
+const options = {
+  // you can also just use 'bottom center'
+  position: positions.MIDDLE,
+  timeout: 5000,
+  // you can also just use 'scale'
+  transition: transitions.SCALE
+};
+
+const AlertTemplate = ({ message }) => (
+  <div className="alert formbutton">{message}</div>
+);
 
 ReactDOM.render(
   <React.StrictMode>
+    <AlertProvider template={AlertTemplate} {...options}>
     <App />
+      </AlertProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

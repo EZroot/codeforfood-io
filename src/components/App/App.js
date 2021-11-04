@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import blog from "../pages/blog"
-import contact from "../pages/contact"
+import team from "../pages/team"
 import index from "../pages/index"
 import userlogin from "../Login/login"
 import services from "../pages/services"
@@ -29,8 +29,8 @@ function App(){
                       <Link class="button" to="/blog">
                       <span>/ LOG</span>
                       </Link>
-                      <Link class="button" to="/contact">
-                      <span>/ CONTACT</span></Link>
+                      <Link class="button" to="/team">
+                      <span>/ TEAM</span></Link>
                     </center>
                     <farright>
                       <Link class="button" to="/userlogin">
@@ -40,7 +40,7 @@ function App(){
                 </div>
             <Switch>
                 <Route path='/blog' component={blog} />
-                <Route path='/contact' component={contact} />
+                <Route path='/team' component={team} />
                 <Route path='/userlogin' component={userlogin} />
                 <Route path='/services' component={services} />
                 <Route path='/projects' component={projects} />

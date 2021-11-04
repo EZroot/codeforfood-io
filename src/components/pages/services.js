@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import Axios from 'axios';
 import qs from 'qs';
+import { useAlert } from 'react-alert'
 
 export default function Services(){
   const[contactName, setName] = useState("");
   const[contactEmail, setEmail] = useState("");
   const[contactMessage, setMessage] = useState("");
 
+  const alert = useAlert()
+
   const email=()=>{
+    alert.show('Email Sent To developer@codeforfood.io');
     Axios.post('https://codeforfood.io/auth/send',
     qs.stringify({
             name: contactName, //gave the values directly for testing
@@ -19,47 +23,61 @@ export default function Services(){
       }
     }).then(function(response) {
         console.log(response);
-    })  }
+    })}
 
   return (
     <div>
     <div class="pagewrapper">
-    <h1><colorwhite>// Code? Food? Om nom?</colorwhite></h1>
+    <h1><colorwhite>// Hire Us</colorwhite></h1>
       <p>
-      <h3><colorwhite>Have an idea?</colorwhite><hr/></h3>
-      Let us help you bring your idea to life with our atlantic work ethic.
-      <h3>## SERVICES</h3>
+      <h3><colorpurple>## SERVICES OFFERED</colorpurple><colorwhite>  2021</colorwhite><hr/></h3>
+      We're a small group of game developers bringing custom development to the consumer market at a reasonable rate.
+      <br/>
+      <br/>
+      Do you have an idea for a dream video game? Or want to create your very own mobile game to monotize?
+      <br/>
+      <br/>
+      We can help!
+      <br/>
+      <br/>
+        We specialize in:
       <ul>
-      <li>2D/3D Game Development</li>
+      <li>2D/3D Game Development (Desktop/Mobile)</li>
       <li>Rapid Prototyping of Interactive Mechanics</li>
       <li>2D Pixel Art</li>
+      <li>Cooking</li>
 
       </ul>
-      <colorwhite>Don't have a big budget? Thats okay!</colorwhite>
-      <br/>
-      <br/>
-      We give <colorwhite><strong><i>special discounts</i></strong></colorwhite> to individuals with smaller request.
+      We give <colorgreen><strong><i><u>special discounts</u></i></strong></colorgreen> to non-professional individuals.
       <br/ >
       <br/ >
-      Let's talk about your project. Contact us below or send us an <strong><a href="mailto:developer@codeforfood.io">EMAIL</a></strong>
+      Enough about us, let's talk about your project!
       </p>
-      <div className="pagewrapper">
+      <div className="formwrapper">
           <label>
             <p>Name</p>
             <input type="text" onChange={e=>setName(e.target.value)}/>
           </label>
           <label>
-            <p>Email</p>
+            <p>Your Email</p>
             <input type="email" onChange={e=>setEmail(e.target.value)}/>
           </label>
           <label>
             <p>Message</p>
-            <textarea onChange={e=>setMessage(e.target.value)} placeholder="Tell us about your project"/>
+            <textarea onChange={e=>setMessage(e.target.value)} placeholder="Tell us about your project..."/>
           </label>
-          <div class="button" onClick={email}>
-            <span>Send</span>
+          <div>
+          <br/>
+          <div class="formbutton" onClick={email}>
+            <span>Send Email</span>
+          </div>
           </div>
       </div>
+      <p>
+      Or email us at <a href="mailto:developer@codeforfood.io"><strong>developer@codeforfood.io</strong></a>
+      <br/>
+      We're looking forward to hearing from you!
+      </p>
       </div>
       </div>
   );
