@@ -9,15 +9,11 @@ const index = () => {
     <h1><img src={logo} alt="loading..." /></h1>
     <p>
     <h3><colorpurple>CodeForFood Game Studio</colorpurple><hr/></h3>
-    Satisfying our mind hunger as a team one project at a time. Thus...
+    Satisfying our mind hunger one project at a time. Thus...
     <h3><colorwhite>CodeForFood.IO was born</colorwhite></h3>
-
-    We believe everyone should be able to make their own game, no matter what age or profession.
+    We believe everyone should be able to make a game, no matter what age or profession.
     <br/>
     <br/>
-    We're so good we can turn your grandma into a game developer!
-    <br/>
-    <h3><colorpurple>Now What?</colorpurple><hr/></h3>
     <a href="mailto:developer@codeforfood.io"><colorpurple>Contact us</colorpurple></a> to get help with your project or idea!
     <br/>
     <br/>

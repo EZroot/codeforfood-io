@@ -7,7 +7,7 @@ import spaceshooter from '../images/star-shooter-best.gif';
 import microwave from '../images/microwave-thru-door.gif';
 import welding from '../images/welding.gif';
 import multiplayer from '../images/newanimations.gif';
-import gameoflife from '../images/gameoflife.gif';
+import fall from '../images/fall.gif';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function show2DProjects(){
@@ -19,11 +19,7 @@ const projects = () => {
 
     <div class="pagewrapper">
     <h1><colorwhite>// Mini Projects</colorwhite></h1>
-
-
         <h3><colorwhite>PROTOTYPES / OPEN SOURCE</colorwhite><hr/></h3>
-
-
         <div class = "pagewrapperhorizontal">
         <div class="container card">
         <img class="gif" src={endless} alt="loading..." />
@@ -48,6 +44,13 @@ const projects = () => {
         </div>
 
         <div class="container card">
+        <img class="gif" src={fall} alt="loading..." />
+        <br/><strong>Name - Zombie Runner</strong>
+        <br/><strong>Type - Animated Physics + Group AI Prototype</strong>
+        <br/><colorpurple>No Source code</colorpurple> available.<br/>
+        </div>
+
+        <div class="container card">
         <img class="gif" src={fallingsand} alt="loading..." />
         <br/><strong>Name - OpenSand</strong>
         <br/><strong>Type - Simple</strong>
@@ -55,36 +58,29 @@ const projects = () => {
         </div>
 
         <div class="container card">
-        <img class="gif" src={welding} alt="loading..." />
-        <br/><strong>Name - VR Welding</strong>
-        <br/><strong>Type - Prototype</strong>
-        <br/><a href="https://codeforfood.io"><colorpurple>No Source code</colorpurple></a> available.<br/>
-        </div>
-
-        <div class="container card">
         <img class="gif" src={microwave} alt="loading..." />
         <br/><strong>Name - Escape The Bunker</strong>
         <br/><strong>Type - Simple</strong>
-        <br/><a href="https://codeforfood.io"><colorpurple>No Source code</colorpurple></a> available.<br/>
+        <br/><colorpurple>No Source code</colorpurple> available.<br/>
         </div>
 
         <div class="container card">
         <img class="gif" src={vr} alt="loading..." />
         <br/><strong>Name - VR Prototype</strong>
         <br/><strong>Type - VR Physics + Character Mapping Prototype</strong>
-        <br/><a href="https://codeforfood.io"><colorpurple>No Source code</colorpurple></a> available.<br/>
+        <br/><colorpurple>No Source code</colorpurple> available.<br/>
         </div>
 
         <div class="container card">
-        <img class="gif" src={gameoflife} alt="loading..." />
-        <br/><strong>Name - Conways Game of Life</strong>
-        <br/><strong>Type - Simple</strong>
-        <br/><a href="https://github.com/EZroot/GameOfLifeConsole"><colorpurple>C# Console Source code</colorpurple></a> available.<br/>
+        <img class="gif" src={welding} alt="loading..." />
+        <br/><strong>Name - VR Welding</strong>
+        <br/><strong>Type - Prototype</strong>
+        <br/><colorpurple>No Source code</colorpurple> available.<br/>
         </div>
 
         <div class="container card">
         <img class="gif" src={multiplayer} alt="loading..." />
-        <br/><strong>Name - 'Among Us' Inspired Physics Mafia Game</strong>
+        <br/><strong>Name - Psychological Deduction Game</strong>
         <br/><strong>Type - Multiplayer + Physics Prototype</strong>
         <br/><a href="https://github.com/EZroot/Engineers/tree/main/Assets"><colorpurple>Unity C# Source code</colorpurple></a> available.<br/>
         </div>

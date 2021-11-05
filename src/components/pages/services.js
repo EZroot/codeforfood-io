@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import {useState,useEffect} from 'react'
 import Axios from 'axios';
 import qs from 'qs';
 import { useAlert } from 'react-alert'
+const publicIp = require('public-ip');
 
 export default function Services(){
   const[contactName, setName] = useState("");
   const[contactEmail, setEmail] = useState("");
   const[contactMessage, setMessage] = useState("");
+
+  const[ip, setIP] = useState("");
 
   const alert = useAlert()
 
@@ -16,14 +19,23 @@ export default function Services(){
     qs.stringify({
             name: contactName, //gave the values directly for testing
             email: contactEmail,
-            message: contactMessage
+            message: contactMessage + " - from "+ip
     }), {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
       }
     }).then(function(response) {
         console.log(response);
-    })}
+    })};
+
+    const getData = async () => {
+      setIP(await publicIp.v4());
+    };
+
+    useEffect( () => {
+      //passing getData method to the lifecycle method
+      getData()
+    }, []);
 
   return (
     <div>
@@ -31,7 +43,7 @@ export default function Services(){
     <h1><colorwhite>// Hire Us</colorwhite></h1>
       <p>
       <h3><colorpurple>## SERVICES OFFERED</colorpurple><colorwhite>  2021</colorwhite><hr/></h3>
-      Need programming help? A game created? Both???
+      Need programming help? 
       <br/>
       <br/>
       We can help!
@@ -44,7 +56,7 @@ export default function Services(){
       <li>2D Pixel Art</li>
 
       </ul>
-      We give discounts to non-professional / student individuals.
+      We give discounts to non-professionals / students.
       <br/ >
       <br/ >
       Enough about us, let's talk about your project!
