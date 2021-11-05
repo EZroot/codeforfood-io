@@ -84,7 +84,7 @@
   }
 
   .formbutton {
-    display: inline-block;
+    display: inline;
     border-radius: 4px;
     background-color: #785261;
     border: none;
@@ -98,7 +98,7 @@
   }
 
   .alertpopup {
-    display: inline-block;
+    display: inline;
     border-radius: 4px;
     background-color: #785261;
     border: none;
@@ -193,7 +193,7 @@
 
   .button span {
     cursor: pointer;
-    display: inline-block;
+    display: inline;
     position: relative;
     transition: 0.5s;
   }
@@ -241,7 +241,7 @@
   */
 
   .filledbutton {
-    display: inline-block;
+    display: inline;
     border-radius: 4px;
     background-color: #785261;
     border: none;
@@ -256,7 +256,7 @@
 
   .filledbutton heartspan {
     cursor: pointer;
-    display: inline-block;
+    display: inline;
     position: relative;
     transition: 0.5s;
   }
@@ -281,7 +281,7 @@
 
   .filledbutton span {
     cursor: pointer;
-    display: inline-block;
+    display: inline;
     position: relative;
     transition: 0.5s;
   }
@@ -305,7 +305,7 @@
   }
 
   .smallfilledbutton {
-    display: inline-block;
+    display: inline;
     border-radius: 4px;
     background-color: #DAC1DE;
     border: none;
@@ -321,7 +321,7 @@
 
   .smallfilledbutton span {
     cursor: pointer;
-    display: inline-block;
+    display: inline;
     position: relative;
     transition: 0.5s;
   }
@@ -395,8 +395,21 @@ body {
 }
 
 .gif {
-  width: 21vw;
-  min-width: 200px;
+  width: 100%;
+  min-width: 150px;
+  height:auto;
+}
+
+.container{
+    padding: 8px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+      height: 100%;
+      width: 150%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+  transition: 0.3s;
 }
 
 h1 {
@@ -460,18 +473,8 @@ textarea {
   transition: all 0.5s;
 }
 
-.container{
-    padding: 12px;
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
-  transition: 0.3s;
-}
-
 .formbutton {
-  display: inline-block;
+  display: inline;
   border-radius: 4px;
   background-color: #785261;
   border: none;
@@ -485,7 +488,7 @@ textarea {
 }
 
 .alertpopup {
-  display: inline-block;
+  display: inline;
   border-radius: 4px;
   background-color: #785261;
   border: none;
@@ -509,7 +512,8 @@ textarea {
 
 
            display: grid;
-           gap: 25px;
+           grid-row-gap: 22px;
+           grid-column-gap: 112px;
            align-items:flex-start;
            grid-template: repeat(3, 1fr) / repeat(3, 1fr);
            grid-auto-flow: row;  /* or 'row', 'row dense', 'column dense' */
@@ -580,7 +584,7 @@ textarea {
 
 .button span {
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   position: relative;
   transition: 0.5s;
 }
@@ -612,7 +616,7 @@ textarea {
 
 .topnav center{
     position: absolute;
-    display: inline-block;
+    display: inline;
     left: 50%;
     margin-right: -50%;
     transform: translateX(-50%);
@@ -633,7 +637,7 @@ Button for donations or subscriptions?
 */
 
 .filledbutton {
-  display: inline-block;
+  display: inline;
   border-radius: 4px;
   background-color: #785261;
   border: none;
@@ -648,7 +652,7 @@ Button for donations or subscriptions?
 
 .filledbutton heartspan {
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   position: relative;
   transition: 0.5s;
 }
@@ -673,7 +677,7 @@ Button for donations or subscriptions?
 
 .filledbutton span {
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   position: relative;
   transition: 0.5s;
 }
@@ -697,7 +701,7 @@ Button for donations or subscriptions?
 }
 
 .smallfilledbutton {
-  display: inline-block;
+  display: inline;
   border-radius: 4px;
   background-color: #DAC1DE;
   border: none;
@@ -713,7 +717,7 @@ Button for donations or subscriptions?
 
 .smallfilledbutton span {
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   position: relative;
   transition: 0.5s;
 }
