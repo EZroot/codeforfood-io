@@ -21,7 +21,7 @@ function App(){
                     </farleft>
                     <center>
                       <Link class="button" to="/services">
-                      <span>/ HIRE US</span>
+                      <span>/ HIRE ME</span>
                       </Link>
                       <Link class="button" to="/projects">
                       <span>/ PROJECTS</span>

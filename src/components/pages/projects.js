@@ -18,7 +18,7 @@ const projects = () => {
   return (
 
     <div class="pagewrapper">
-    <h1><colorwhite>// Mini Projects</colorwhite></h1>
+    <h1><colorwhite>// Free Projects</colorwhite></h1>
         <h3><colorwhite>PROTOTYPES / OPEN SOURCE</colorwhite><hr/></h3>
         <div class = "pagewrapperhorizontal">
         <div class="container card">
@@ -47,7 +47,7 @@ const projects = () => {
         <img class="gif" src={fall} alt="loading..." />
         <br/><strong>Name - Zombie Runner</strong>
         <br/><strong>Type - Animated Physics + Group AI Prototype</strong>
-        <br/><colorpurple>No Source code</colorpurple> available.<br/>
+        <br/><colorpurple>Private Source code</colorpurple><br/>
         </div>
 
         <div class="container card">
@@ -61,21 +61,21 @@ const projects = () => {
         <img class="gif" src={microwave} alt="loading..." />
         <br/><strong>Name - Escape The Bunker</strong>
         <br/><strong>Type - Simple</strong>
-        <br/><colorpurple>No Source code</colorpurple> available.<br/>
+        <br/><colorpurple>Private Source code</colorpurple><br/>
         </div>
 
         <div class="container card">
         <img class="gif" src={vr} alt="loading..." />
         <br/><strong>Name - VR Prototype</strong>
         <br/><strong>Type - VR Physics + Character Mapping Prototype</strong>
-        <br/><colorpurple>No Source code</colorpurple> available.<br/>
+        <br/><colorpurple>Private Source code</colorpurple><br/>
         </div>
 
         <div class="container card">
         <img class="gif" src={welding} alt="loading..." />
         <br/><strong>Name - VR Welding</strong>
         <br/><strong>Type - Prototype</strong>
-        <br/><colorpurple>No Source code</colorpurple> available.<br/>
+        <br/><colorpurple>Private Source code</colorpurple><br/>
         </div>
 
         <div class="container card">

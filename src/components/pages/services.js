@@ -40,26 +40,25 @@ export default function Services(){
   return (
     <div>
     <div class="pagewrapper">
-    <h1><colorwhite>// Hire Us</colorwhite></h1>
+    <h1><colorwhite>// Hire Me</colorwhite></h1>
       <p>
-      <h3><colorpurple>## SERVICES OFFERED</colorpurple><colorwhite>  2021</colorwhite><hr/></h3>
-      Need programming help? 
+      <h3><colorpurple>## SERVICES </colorpurple><colorwhite> </colorwhite><hr/></h3>
+      Have an idea for a game? Or an interactive story? Maybe you just need a little coding assistance for an existing project or school.
       <br/>
       <br/>
-      We can help!
+      Whatever it is, I can help!
       <br/>
       <br/>
-        We specialize in:
+      I specialize in:
       <ul>
       <li>2D/3D Game Development (Desktop/Mobile)</li>
       <li>Rapid Prototyping of Interactive Mechanics</li>
-      <li>2D Pixel Art</li>
-
+      <li>VR/AR Applications</li>
       </ul>
-      We give discounts to non-professionals / students.
+      I also give discounts to non-professionals / students.
       <br/ >
       <br/ >
-      Enough about us, let's talk about your project!
+      Contact me below and let's talk about your project!
       </p>
       <div className="formwrapper">
           <label>
@@ -72,7 +71,7 @@ export default function Services(){
           </label>
           <label>
             <p>Message</p>
-            <textarea onChange={e=>setMessage(e.target.value)} placeholder="Tell us about your project..."/>
+            <textarea onChange={e=>setMessage(e.target.value)} placeholder="Project details..."/>
           </label>
           <div>
           <br/>
@@ -82,9 +81,9 @@ export default function Services(){
           </div>
       </div>
       <p>
-      Or email us at <a href="mailto:developer@codeforfood.io"><strong>developer@codeforfood.io</strong></a>
+      Or email me at <a href="mailto:developer@codeforfood.io"><strong>developer@codeforfood.io</strong></a>
       <br/>
-      We're looking forward to hearing from you!
+      I look forward to hearing from you!
       </p>
       </div>
       </div>
