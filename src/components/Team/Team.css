@@ -1,43 +1,120 @@
 /*DESKTOP*/
 @media only screen and (min-width: 767px) {
-  .App{
+  .Team{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            margin-left: 25%;
+            margin-right: 25%;
+
+    color: #F1E9EC;
+    font-family: 'PixelOperatorMono';
   }
 
-  .App center{
-    position: absolute;
-    display: inline;
-    left: 50%;
-    margin-right: -50%;
-    transform: translateX(-50%);
+  .Team img{
+    width: max(5vw,82px);
   }
 
-  .App farleft{
-    float:left;
+  .Team h1{
+    font-size:max(3vw,32px);
+    }
+
+  .Team h2 {
+    font-size:max(1.5vw,22px);
   }
 
-  .App farright{
-    float:right;
+  .Team h3 {
+    font-size: max(1.3vw, 18px);
+  }
+
+  .Team p{
+    font-size:max(1vw,14px);
+  }
+
+  .Team a{
+    font-size:max(1vw,14px);
+    color: #DAC1DE;
+  }
+
+  .Team purple{
+    color: #AB89B1;
+  }
+
+  .Team white{
+    color: #FDE4EE;
+  }
+
+  .Team red{
+    color:#F8BBD2
+  }
+
+  .Team green{
+    color:#C6F393;
   }
 }
 
 /* MOBILE */
 @media only screen and (min-width: 220px) and (max-width: 767px) {
-  .App{
+  .Team{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+            margin-right: 10%;
+    font-family: 'PixelOperatorMono';
+    color: #F1E9EC;
+  }
 
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              font-family: 'PixelOperatorMono';
+  .Team img{
+    width: max(5vw,82px);
+  }
+
+  .Team h1{
+    font-size:max(3vw,32px);
+    }
+
+  .Team h2 {
+    font-size:max(1.5vw,22px);
+  }
+
+  .Team h3 {
+    font-size: max(1.3vw, 18px);
+  }
+
+  .Team p{
+    font-size:max(1vw,14px);
+  }
+
+  .Team a{
+    font-size:max(1vw,14px);
+    color: #DAC1DE;
+  }
+
+  .Team purple{
+    color: #AB89B1;
+  }
+
+  .Team white{
+    color: #FDE4EE;
+  }
+
+  .Team red{
+    color:#F8BBD2
+  }
+
+  .Team green{
+    color:#C6F393;
   }
 }
 

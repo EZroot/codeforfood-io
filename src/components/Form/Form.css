@@ -1,0 +1,120 @@
+/*DESKTOP*/
+@media only screen and (min-width: 767px) {
+  .Form{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 1s; /* Firefox < 16 */
+         -ms-animation: fadein 1s; /* Internet Explorer */
+          -o-animation: fadein 1s; /* Opera < 12.1 */
+             animation: fadein 1s;
+
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-left: 5%;
+             margin-right: 5%;
+
+    color: #F1E9EC;
+    font-family: 'PixelOperatorMono';
+    font-size: max(1vw,14px);
+  }
+  .Form label {
+    font-size: max(1vw,18px);
+
+  }
+
+  .Form textarea {
+    font-size: max(1.1vw, 15px);
+    font-family: 'PixelOperatorMono';
+
+    width: max(36vw,300px);
+    height: 140px;
+    transition: all 0.5s;
+  }
+
+  .Form input {
+    width: max(36vw,300px);
+    font-size: max(1.3vw, 18px);
+    font-family: 'PixelOperatorMono';
+  }
+}
+
+/* MOBILE */
+@media only screen and (min-width: 220px) and (max-width: 767px) {
+  .Form{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #F1E9EC;
+
+    font-family: 'PixelOperatorMono';
+  }
+
+  .Form label {
+    font-size: max(1vw,18px);
+
+  }
+
+  .Form textarea {
+    font-size: max(1.1vw, 15px);
+    font-family: 'PixelOperatorMono';
+
+    width: max(36vw,300px);
+    height: 140px;
+    transition: all 0.5s;
+  }
+
+  .Form input {
+    width: max(36vw,300px);
+    font-size: max(1.3vw, 18px);
+    font-family: 'PixelOperatorMono';
+  }
+}
+
+/* EFFECTS */
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@font-face {
+font-family: 'PixelOperatorMono';
+src: local('PixelOperatorMono'), url('../Fonts/PixelOperatorMono.ttf') format('truetype');
+/* upheavtt is nice
+  pcsenior
+  rainyhearts - originally designed with this in mind
+  visitor1
+  visitor2
+  PixelOperator
+*/
+}

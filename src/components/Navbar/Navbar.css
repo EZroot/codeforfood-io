@@ -1,14 +1,25 @@
 /*DESKTOP*/
 @media only screen and (min-width: 767px) {
-  .App{
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+  body{
+    background-color: #19171A;
   }
 
-  .App center{
+
+  .Navbar{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+     -o-animation: fadein 1s; /* Opera < 12.1 */
+        animation: fadein 1s;
+
+
+    padding: 12px;
+    overflow: hidden;
+    background-color: #19171A;
+    transition: all 0.5s;
+  }
+
+  .Navbar center{
     position: absolute;
     display: inline;
     left: 50%;
@@ -16,28 +27,34 @@
     transform: translateX(-50%);
   }
 
-  .App farleft{
+  .Navbar farleft{
     float:left;
   }
 
-  .App farright{
+  .Navbar farright{
     float:right;
   }
 }
 
 /* MOBILE */
 @media only screen and (min-width: 220px) and (max-width: 767px) {
-  .App{
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+  body{
+    background-color: #19171A;
+  }
+  
+  .Navbar{
+    font-family: 'PixelOperatorMono';
 
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              font-family: 'PixelOperatorMono';
+    padding: 2px;
+    overflow: hidden;
+    background-color: #19171A;
+    transition: all 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 

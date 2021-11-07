@@ -1,0 +1,172 @@
+/*DESKTOP*/
+@media only screen and (min-width: 767px) {
+  .Page{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            padding-top: 20px;
+            margin-left: 25%;
+            margin-right: 25%;
+
+    color: #F1E9EC;
+    font-family: 'PixelOperatorMono';
+  }
+
+  .Page a{
+    color: #DAC1DE
+  }
+
+.Page a:link {
+  color: #DAC1DE;
+}
+
+  /* mouse over link */
+  .Page a:hover {
+    color: pink;
+  }
+
+  /* selected link */
+  .Page a:active {
+    color: white;
+  }
+
+  .Page img{
+    width: max(5vw,62px);
+  }
+
+  .Page h1{
+    font-size:max(3vw,32px);
+    }
+
+  .Page h2 {
+    font-size:max(1.5vw,22px);
+  }
+
+  .Page h3 {
+    font-size: max(1.3vw, 18px);
+  }
+
+  .Page p{
+    font-size:max(1vw,14px);
+  }
+
+  .Page purple{
+    color: #AB89B1;
+  }
+
+  .Page white{
+    color: #FDE4EE;
+  }
+
+  .Page red{
+    color:#F8BBD2
+  }
+
+  .Page green{
+    color:#C6F393;
+  }
+}
+
+/* MOBILE */
+@media only screen and (min-width: 220px) and (max-width: 767px) {
+  .Page{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+            margin-right: 10%;
+    font-family: 'PixelOperatorMono';
+    font-size: max(1vw,14px);
+    color: #F1E9EC;
+
+  }
+
+
+    .Page a{
+      color: #DAC1DE
+    }
+
+    .Page img{
+      width: max(5vw,62px);
+    }
+
+    .Page h1{
+      font-size:max(3vw,32px);
+      }
+
+    .Page h2 {
+      font-size:max(1.5vw,22px);
+    }
+
+    .Page p{
+      font-size:max(1vw,14px);
+    }
+
+    .Page purple{
+      color: #AB89B1;
+    }
+
+    .Page white{
+      color: #FDE4EE;
+    }
+
+    .Page red{
+      color:#F8BBD2
+    }
+
+    .Page green{
+      color:#C6F393;
+    }
+}
+
+/* EFFECTS */
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@font-face {
+font-family: 'PixelOperatorMono';
+src: local('PixelOperatorMono'), url('../Fonts/PixelOperatorMono.ttf') format('truetype');
+/* upheavtt is nice
+  pcsenior
+  rainyhearts - originally designed with this in mind
+  visitor1
+  visitor2
+  PixelOperator
+*/
+}
