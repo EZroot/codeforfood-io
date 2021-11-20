@@ -12,8 +12,9 @@ export default function Page(props){
             Satisfying my mind hunger one project at a time. Thus...
           <h3><white>CodeForFood.IO was born</white></h3>
             A place to showcase a few projects and prototypes.
-          <br/>
-           If you want a peek at my long term project, <a href="https://codeforfood.io/latest" ><purple>Check Out Atlantic Bound.</purple></a>
+            <br/>
+            <br/>
+          <a href="https://codeforfood.io/latest" ><purple>Atlantic Bound</purple></a> is my current project.
           <br/>
           <br/>
             <a href="mailto:developer@codeforfood.io"><purple>Contact me</purple></a> to get help with your project or idea!

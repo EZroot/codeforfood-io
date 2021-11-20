@@ -35,8 +35,11 @@
     color: white;
   }
 
-  .Latest img{
-    width: max(5vw,562px);
+  .Latest img1{
+    width: max(5vw,62px);
+  }
+  .Latest img2{
+      width: max(5vw,562px);
   }
 
   .Latest h1{
@@ -96,9 +99,13 @@
       color: #DAC1DE
     }
 
-    .Latest img{
-      width: max(5vw,62px);
-    }
+
+      .Latest img1{
+        width: max(5vw,62px);
+      }
+      .Latest img2{
+          width: max(5vw,562px);
+      }
 
     .Latest h1{
       font-size:max(3vw,32px);

@@ -7,6 +7,11 @@ import s4 from './screenshot4.png';
 import screeny from './screeny.png';
 import tinyhouse from './house-tiny.png';
 import jobboard from './job-board.png';
+import house1 from './house1.png';
+import box from './box.png';
+import grassground from './grass-ground.png';
+import tree from './tree.png';
+import talltree from './tall-tree.png';
 
 const latest = () => {
     return(
@@ -15,20 +20,22 @@ const latest = () => {
         <br/>
         <br/>
             <h3><purple>Atlantic Bound</purple><hr/></h3>
-              In this game you live in a small community where you and your neighbours control which type of town it will be through political dominance + market dominance.
+              In this game you live in a small community where you and your neighbours control the outcome through political dominance + market manipulation.
               <br/>
               <br/>
-              The town has it's own political system, laws, capitalistic market, and corruption.
+              The town has it's own political system, laws, and capitalistic market.
               <br/>
               <br/>
               As a player, you can work for someone else or try your hand at running a business.
               <br/>
+              Build your reputation among the citizens and climb the political ladder to town President.
               <br/>
-              Each member is a key part of your society with their own backgrounds and personality heuristics allowing for them to have jobs and make choices based on their personality type.
+              <br/>
+              Each member is a key part of your society with their own personality, goals, and skills, allowing them to make choices based on their unique personality.
               <br/>
               <br/>
-              <h4>[ WIP, SUBJECT TO CHANGE ]</h4>
-              <img src={screeny} alt="loading..." />
+              <img class="Latest img2" src={screeny} alt="loading..." />
+              <center><h4>[ EARLY WIP, SUBJECT TO CHANGE ]</h4></center>
               <h3>Features<hr/></h3>
               <li>Work your way up the political hierarchy</li>
               <li>Influence the simulated economics of your town</li>
@@ -39,24 +46,32 @@ const latest = () => {
               <br/>
               Dive in and become Atlantic Bound!
               <br/>
-              <h3>Dev Update - Nov 18, 2021<hr/></h3>
+              <h3>Quick Update Nov 18, 2021<hr/></h3>
               Working on making a little alert board.
               <br/>
-              It'll display people wanting jobs done or getting rid of items.
+              It'll display people offering jobs or getting rid of items.
               <br/>
               <br/>
               It's basically craigslist.
               <br/>
               <br/>
-              <img src={s4} alt="loading..." />
+              <img class="Latest img2" src={s4} alt="loading..." />
               <br/>
               <br/>
               Pixel art takes so long, but its a lot of fun.
               <br/>
-              A little preview of the buy menu so far:
+              Just throwing out a few more screenshots/art:
               <br/>
               <br/>
-              <img src={s2} alt="loading..." />
+              <img class="Latest img2" src={s1} alt="loading..." />
+              <img class="Latest img2" src={s3} alt="loading..." />
+              <img class="Latest img2" src={tinyhouse} alt="loading..." />
+              <img class="Latest img2" src={house1} alt="loading..." />
+              <img class="Latest img1" src={tree} alt="loading..." />
+              <img class="Latest img1" src={talltree} alt="loading..." />
+              <img class="Latest img1" src={jobboard} alt="loading..." />
+              <img class="Latest img1" src={box} alt="loading..." />
+              <img class="Latest img1" src={grassground} alt="loading..." />
               <br/>
               <br/>
               Like the horrible mountains in the background, this doesn't represent it's final look and the art is subject to change.
