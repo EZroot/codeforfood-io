@@ -21,7 +21,6 @@ export default function Navbar(props){
               <center>
               <LinkButton text="/ HIRE ME" location="/services" />
               <LinkButton text="/ PROJECTS" location="/projects" />
-              <LinkButton text="/ LOG" location="/blog" />
               <LinkButton text="/ TEAM" location="/team" />
               </center>
               <farright>

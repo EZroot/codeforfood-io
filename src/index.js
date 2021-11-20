@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App';
+import './components/Form/Form.css'
 import reportWebVitals from './reportWebVitals';
 import { transitions, positions, Provider as AlertProvider } from 'react-alert';
 //import AlertTemplate from 'react-alert-template-oldschool-dark';
