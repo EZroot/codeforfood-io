@@ -1,6 +1,6 @@
 /*DESKTOP*/
 @media only screen and (min-width: 767px) {
-  .Page{
+  .Latest{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
@@ -17,67 +17,64 @@
     font-family: 'PixelOperatorMono';
   }
 
-  .Page a{
+  .Latest a{
     color: #DAC1DE
   }
 
-.Page a:link {
+.Latest a:link {
   color: #DAC1DE;
 }
 
   /* mouse over link */
-  .Page a:hover {
+  .Latest a:hover {
     color: pink;
   }
 
   /* selected link */
-  .Page a:active {
+  .Latest a:active {
     color: white;
   }
 
-  .Page img1{
-    width: max(5vw,62px);
-  }
-  .Page img2{
-      width: max(5vw,562px);
+  .Latest img{
+    width: max(5vw,562px);
   }
 
-  .Page h1{
+  .Latest h1{
     font-size:max(3vw,32px);
     }
 
-  .Page h2 {
+  .Latest h2 {
     font-size:max(1.5vw,22px);
   }
 
-  .Page h3 {
+  .Latest h3 {
     font-size: max(1.3vw, 18px);
   }
 
-  .Page p{
+  .Latest p{
     font-size:max(1vw,14px);
   }
 
-  .Page purple{
+  .Latest purple{
     color: #AB89B1;
   }
 
-  .Page white{
+  .Latest white{
     color: #FDE4EE;
   }
 
-  .Page red{
+  .Latest red{
     color:#F8BBD2
   }
 
-  .Page green{
+  .Latest green{
     color:#C6F393;
   }
 }
 
 /* MOBILE */
 @media only screen and (min-width: 220px) and (max-width: 767px) {
-  .Page{
+  .Latest{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
@@ -95,39 +92,39 @@
   }
 
 
-    .Page a{
+    .Latest a{
       color: #DAC1DE
     }
 
-    .Page img{
+    .Latest img{
       width: max(5vw,62px);
     }
 
-    .Page h1{
+    .Latest h1{
       font-size:max(3vw,32px);
       }
 
-    .Page h2 {
+    .Latest h2 {
       font-size:max(1.5vw,22px);
     }
 
-    .Page p{
+    .Latest p{
       font-size:max(1vw,14px);
     }
 
-    .Page purple{
+    .Latest purple{
       color: #AB89B1;
     }
 
-    .Page white{
+    .Latest white{
       color: #FDE4EE;
     }
 
-    .Page red{
+    .Latest red{
       color:#F8BBD2
     }
 
-    .Page green{
+    .Latest green{
       color:#C6F393;
     }
 }

@@ -52,7 +52,7 @@ export default function Projects(props){
           <p>
              <purple>Project Name</purple>
           <hr/>
-          Reaper</p>
+          Immortal Vengeance</p>
           <p>
              <purple>Details</purple>
           <hr/>
@@ -62,8 +62,8 @@ export default function Projects(props){
           <p>
           <purple>Source Code</purple>
           <hr/>
-          <a href="https://github.com/EZroot/Reaper">
-             <white>github.com/EZroot/Reaper</white>
+          <a href="https://github.com/EZroot/ImmortalVengeance">
+             <white>github.com/EZroot/ImmortalVengeance</white>
           </a>
           </p>
 
@@ -84,8 +84,8 @@ export default function Projects(props){
           </p><p>
           <purple>Source Code</purple>
           <hr/>
-          <a href="https://github.com/EZroot/StartShooter">
-             <white>github.com/EZroot/StartShooter</white>
+          <a href="https://github.com/EZroot/StarShooter">
+             <white>github.com/EZroot/StarShooter</white>
           </a></p>
 
       </container>
@@ -197,14 +197,14 @@ export default function Projects(props){
           <img src={multiplayer} alt="loading..." />
           <br/>
           <p><purple>Project Name</purple><hr/>
-          Multiplayer Psychological Deduction Game</p>
+          Station Terror</p>
           <p><purple>Details</purple><hr/>
           Engine: Unity <br/>
           Language: C#
           </p>
           <p>
           <purple>Source Code</purple><hr/>
-          <a href="https://github.com/EZroot/Engineers"><white>github.com/EZroot/Engineers</white></a>
+          <a href="https://github.com/EZroot/StationTerror"><white>github.com/EZroot/StationTerror</white></a>
           </p>
 
      </container>

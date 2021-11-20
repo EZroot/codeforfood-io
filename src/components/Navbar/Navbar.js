@@ -8,6 +8,7 @@ import services from "../../pages/services"
 import projects from "../../pages/projects"
 import team from "../../pages/team"
 import login from "../../pages/login"
+import latest from "../../pages/latest"
 import page from "../../pages/index"
 
 export default function Navbar(props){
@@ -19,6 +20,7 @@ export default function Navbar(props){
               <LinkButton text="CODEFORFOOD.IO" location="/" />
               </farleft>
               <center>
+              <LinkButton text="/ ATLANTIC BOUND" location="/latest" />
               <LinkButton text="/ HIRE ME" location="/services" />
               <LinkButton text="/ PROJECTS" location="/projects" />
               <LinkButton text="/ TEAM" location="/team" />
@@ -29,6 +31,7 @@ export default function Navbar(props){
           </div>
       <Switch>
       <Route path='/blog' component={blog} />
+      <Route path='/latest' component={latest} />
       <Route path='/services' component={services} />
       <Route path='/projects' component={projects} />
       <Route path='/team' component={team} />
