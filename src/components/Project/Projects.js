@@ -8,6 +8,9 @@ import microwave from './microwave-thru-door.gif';
 import welding from './welding.gif';
 import multiplayer from './newanimations.gif';
 import fall from './fall.gif';
+import retroprototype from './retroprototype.gif';
+import codeparser from './codeparser.gif';
+import consolegame from './console-gameoflife.gif';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import './Projects.css';
@@ -110,25 +113,88 @@ export default function Projects(props){
 
         </container>
 
+        <container>
+
+           <img src={consolegame} alt="loading..." />
+           <br/>
+           <p>
+              <purple>Project Name</purple>
+           <hr/>
+           Game of Life</p>
+           <p>
+              <purple>Details</purple>
+           <hr/>
+           Graphics: Cmd <br/>
+           Language: C#
+           </p><p>
+           <purple>Source Code</purple>
+           <hr/>
+           <a href="https://github.com/EZroot/GameOfLifeConsole"><white>github.com/EZroot/GameOfLifeConsole</white></a>
+           </p>
+
+        </container>
+
+        <container>
+
+           <img src={fallingsand} alt="loading..." />
+           <br/>
+           <p>
+              <purple>Project Name</purple>
+           <hr/>
+           OpenSand</p>
+           <p>
+              <purple>Details</purple>
+           <hr/>
+           Graphics: Monogame <br/>
+           Language: C#
+           </p><p>
+           <purple>Source Code</purple>
+           <hr/>
+           <a href="https://github.com/EZroot/OpenSand">
+              <white>github.com/EZroot/OpenSand</white>
+           </a></p>
+
+        </container>
+
+        <container>
+
+           <img src={retroprototype} alt="loading..." />
+           <br/>
+           <p>
+              <purple>Project Name</purple>
+           <hr/>
+           Retro FPS</p>
+           <p>
+              <purple>Details</purple>
+           <hr/>
+           Graphics: Unity <br/>
+           Language: C#
+           </p><p>
+           <purple>Source Code</purple>
+           <hr/>
+           <white>Private</white>
+           </p>
+
+        </container>
+
        <container>
 
-          <img src={fallingsand} alt="loading..." />
+          <img src={codeparser} alt="loading..." />
           <br/>
           <p>
              <purple>Project Name</purple>
           <hr/>
-          OpenSand</p>
+          Code Parser</p>
           <p>
              <purple>Details</purple>
           <hr/>
-          Graphics: Monogame <br/>
+          Graphics: Unity <br/>
           Language: C#
           </p><p>
           <purple>Source Code</purple>
           <hr/>
-          <a href="https://github.com/EZroot/OpenSand">
-             <white>github.com/EZroot/OpenSand</white>
-          </a></p>
+          <white>Private</white>
+          </p>
 
        </container>
 

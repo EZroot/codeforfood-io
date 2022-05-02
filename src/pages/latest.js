@@ -35,7 +35,7 @@ const latest = () => {
               <br/>
               <br/>
               <img class="Latest img2" src={screeny} alt="loading..." />
-              <center><h4>[ EARLY WIP, SUBJECT TO CHANGE ]</h4></center>
+              <center><h4>[ EARLY WIP ]</h4></center>
               <h3>Features<hr/></h3>
               <li>Work your way up the political hierarchy</li>
               <li>Influence the simulated economics of your town</li>
@@ -52,29 +52,10 @@ const latest = () => {
               It'll display people offering jobs or getting rid of items.
               <br/>
               <br/>
-              It's basically craigslist.
-              <br/>
-              <br/>
               <img class="Latest img2" src={s4} alt="loading..." />
               <br/>
               <br/>
               Pixel art takes so long, but its a lot of fun.
-              <br/>
-              Just throwing out a few more screenshots/art:
-              <br/>
-              <br/>
-              <img class="Latest img2" src={s1} alt="loading..." />
-              <img class="Latest img2" src={s3} alt="loading..." />
-              <img class="Latest img2" src={tinyhouse} alt="loading..." />
-              <img class="Latest img2" src={house1} alt="loading..." />
-              <img class="Latest img1" src={tree} alt="loading..." />
-              <img class="Latest img1" src={talltree} alt="loading..." />
-              <img class="Latest img1" src={jobboard} alt="loading..." />
-              <img class="Latest img1" src={box} alt="loading..." />
-              <img class="Latest img1" src={grassground} alt="loading..." />
-              <br/>
-              <br/>
-              Like the horrible mountains in the background, this doesn't represent it's final look and the art is subject to change.
               <br/>
               <br/>
               <a href="mailto:developer@codeforfood.io"><purple>Contact me</purple></a> to get help with your project or idea!
